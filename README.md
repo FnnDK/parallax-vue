@@ -2,26 +2,25 @@
 
 > A Vue.js wrapper for Parallax.js
 
-## Build Setup
+## Install
 
 ``` bash
-# install dependencies
-npm install
+# install package
+npm install https://github.com/FnnDK/parallax-vue --save
 
-# serve with hot reload at localhost:8080
-npm run dev
+# Register the component
 
-# build for production with minification
-npm run build
+import Vue from 'vue'
+import Parallax from 'parallax-vue'
+Vue.component('parallax', Parallax)
 
-# build for production and view the bundle analyzer report
-npm run build --report
+# In HTML
+<parallax class="parallax-intro">
+	<img data-depth="0.4" src="bg.png"/>
+	<img data-depth="0.2" src="secondElement.png"/>
+	<img data-depth="0.1" src="firstElement.png"/>
+</parallax>
 
-# run unit tests
-npm run unit
-
-# run all tests
-npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
