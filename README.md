@@ -15,7 +15,7 @@ import Parallax from 'parallax-vue'
 Vue.component('parallax', Parallax)
 
 # In HTML
-<parallax class="parallax-intro">
+<parallax>
 	<img data-depth="0.4" src="bg.png"/>
 	<img data-depth="0.2" src="secondElement.png"/>
 	<img data-depth="0.1" src="firstElement.png"/>
