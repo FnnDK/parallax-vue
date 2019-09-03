@@ -1,13 +1,13 @@
 {
-	"name": "parallax-vue",
+	"name": "@fnndk/parallax-vue",
 	"version": "1.0.0",
 	"license": "MIT",
 	"main": "src/index.js",
 	"description": "A Vue.js wrapper for Parallax.js",
 	"author": {
-		"name": "Fernando Resende",
+		"name": "Fernando Resende Klumpp",
 		"email": "fernando.resende.k@gmail.com",
-		"url": "https://"
+		"url": "https://github.com/FnnDK"
 	},
 	"scripts": {
 		"dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",

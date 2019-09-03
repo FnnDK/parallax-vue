@@ -6,7 +6,7 @@
 
 ``` bash
 # install package
-npm install https://github.com/FnnDK/parallax-vue --save
+npm install --save @fnndk/parallax-vue
 
 # Register the component
 
