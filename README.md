@@ -11,7 +11,8 @@ npm install --save @fnndk/parallax-vue
 # Register the component
 
 import Vue from 'vue'
-import Parallax from 'parallax-vue'
+import Parallax from '@fnndk/parallax-vue'
+
 Vue.component('parallax', Parallax)
 
 # In HTML
